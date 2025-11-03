@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Define our data
 var shopData = {
-  shopName: "The Sip City",
+  shopName: "HI",
   productCategories: ["Beer", "Wine", "Soft Drinks", "Hot Drinks"],
   shopInfo: [
     {
