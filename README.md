@@ -35,9 +35,10 @@ node index.js
 
 ## Routes
 
-| Route      | Description                              |
-| ---------- | ---------------------------------------- |
-| /          | Home page displaying shop name and items |
-| / about    | About the shop                           |
-| / search   | Search shop items                        |
-| / register | Register first,last name and email       |
+| Route      | Description                                          |
+| ---------- | ---------------------------------------------------- |
+| /          | Home page displaying shop name and items             |
+| / about    | About the shop                                       |
+| / search   | Search shop items                                    |
+| / register | Register first name,last name and email of customers |
+| / survey   | Surveying customers first name ,last name and email  |
