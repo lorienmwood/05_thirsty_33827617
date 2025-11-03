@@ -12,20 +12,17 @@
     <h1>Welcome to <%=shopName%> Shop</h1>
     <h2>We sell all sorts of drinks!</h2>
 
-    <h3>You can find our store locations at </h3>
-
-    <% for (let i=0; i < shopInfo.length; i++) { %>
-        <li>
-            <strong>
-                Location: <%= shopInfo[i].locations %>
-            </strong><br>
-            Manager: <%= shopInfo[i].manager %><br>
-                Address: <%= shopInfo[i].address %>
-                    <br>
-                    </br>
-        </li>
-        <% } %>
-
+    <h3>You can find our stores at </h3>
+    <ul>
+        <% for (let i=0; i < shopInfo.length; i++) { %>
+            <li>
+                Location: <%= shopInfo[i].locations %><br>
+                    Shop Manager: <%= shopInfo[i].manager %><br>
+                        Address: <%= shopInfo[i].address %>
+                            </br>
+            </li>
+            <% } %>
+    </ul>
 </body>
 
 </html>
