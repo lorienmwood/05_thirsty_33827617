@@ -59,7 +59,6 @@ router.get("/register", (req, res) => {
 
 // Reistered Route - Shows customers first name, last name and email
 router.post("/registered", (req, res) => {
-  //   res.send(req.body);
   res.send(
     " Hello " +
       req.body.first +
@@ -78,12 +77,15 @@ router.get("/survey", (req, res) => {
 
 // Reistered Route - Shows customers first name, last name and email
 router.post("/surveyResponse", (req, res) => {
+  // Student response set to either yes or no
+  let response = req.body.student !== "no" ? "yes" : "no";
+
   res.send(
     " Hello " +
       req.body.first +
       " " +
       req.body.last +
-      " thanks for completing the survey" +
+      " thanks for completing the survey." +
       " We will send an email to you at " +
       req.body.email +
       " with your responses. " +
@@ -93,10 +95,10 @@ router.post("/surveyResponse", (req, res) => {
       " years old. " +
       "<br>" +
       " We asked if you are a student, you said " +
-      req.body.student +
+      response +
       ".<br>" +
       "You consume " +
-      req.body.category
+      req.body.productCategories
   );
 });
 
