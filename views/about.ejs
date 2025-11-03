@@ -5,13 +5,14 @@
     <title>
         <%=shopName%>
     </title>
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <h1>Welcome to <%=shopName%> Shop</h1>
-    <p>We sell all sorts of drinks</p>
+    <h2>We sell all sorts of drinks!</h2>
 
-    <p>You can find our store locations at </p>
+    <h3>You can find our store locations at </h3>
 
     <% for (let i=0; i < shopInfo.length; i++) { %>
         <li>
@@ -20,7 +21,7 @@
             </strong><br>
             Manager: <%= shopInfo[i].manager %><br>
                 Address: <%= shopInfo[i].address %>
-                <br>
+                    <br>
                     </br>
         </li>
         <% } %>

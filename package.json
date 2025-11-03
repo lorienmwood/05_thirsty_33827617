@@ -15,9 +15,10 @@
     "url": "https://github.com/lorienmwood/05_thirsty_33827617/issues"
   },
   "homepage": "https://github.com/lorienmwood/05_thirsty_33827617#readme",
-  "description": "",
+  "description": "A small web application built using Node.js, Express.js, and the EJS templating engine.",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0"
-  }
+  },
+  "keywords": []
 }

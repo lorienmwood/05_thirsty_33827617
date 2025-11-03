@@ -15,7 +15,7 @@ A small web application built using Node.js, Express.js, and the EJS templating 
 
 ```
 git clone https://github.com/lorienmwood/05_thirsty_12345678.git
-cd cd 05_thirsty_12345678
+cd 05_thirsty_12345678
 ```
 
 2. Install Node.js
